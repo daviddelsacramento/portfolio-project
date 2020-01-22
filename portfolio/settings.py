@@ -81,7 +81,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'portfoliodb',
         'USER':'postgres',
-        'PASSWORD':'holachao2020',
+        'PASSWORD':'django123',
         'HOST':'127.0.0.1',
         'PORT':'5432',
     }
@@ -130,7 +130,7 @@ STATICFILES_DIRS =[
 ]
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-STATIC_URL = '/static/' #this is just the name on the URL 
+STATIC_URL = '/static/' #this is just the name on the URL
 
 
 
